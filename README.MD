@@ -2,6 +2,8 @@
 
 Projekt analityczny w trakcie tworzenia, którego celem jest wizualizacja danych pogodowych dla Londynu z lat 2018-2020. Dashboard jest budowany z użyciem biblioteki Streamlit w Pythonie.
 
+![Zrzut ekranu dashboardu](images/dashboard.PNG)
+
 ## Główne cele projektu
 
 -   Wczytanie i przygotowanie danych z pliku CSV.
@@ -17,15 +19,10 @@ Projekt analityczny w trakcie tworzenia, którego celem jest wizualizacja danych
 -   Konwersja typów danych (date na datetime).
 -   Filtracja danych do lat 2018-2020.
 -   Wizualizacja średnich, minimalnych i maksymalnych temperatur z użyciem Altair.
+-   Filtrowanie lat na wykresie temperatur.
 -   Obliczenie i wyświetlenie kluczowych wskaźników.
-
-## W planach:
-
--   Stworzenie wykresu dla wizualizacji zakresów temperatur.
--   Dodanie filtrów pozwalających na wybór konkretnych lat lub miesięcy.
--   Wizualizacja korelacji między zmiennymi.
--   Ostateczne dopracowanie układu i wyglądu dashboardu.
--   Wdrożenie aplikacji na platformę hostingową (np. Streamlit Cloud).
+-   Wizualizacja sumarycznych opadów poszczególnych lat
+-   Wyświetlenie tabeli danych.
 
 ## Technologia
 
